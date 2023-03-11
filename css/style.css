@@ -1,0 +1,393 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+.nav {
+    width: 100%;
+    overflow: auto;
+    background-color: #0b0b0b;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70px;
+    height: 10%;
+}
+
+.nav ul {
+    padding: 0;
+    padding: 0 0 0 250px;
+    list-style: none;
+}
+
+.nav li {
+
+    float: left;
+}
+
+.nav li a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    text-align: center;
+}
+
+.nav li a:hover {
+    background: gray;
+    text-transform: uppercase;
+}
+
+.section {
+
+    padding: 0 15px;
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/next-home-banner-1.png");
+    background-size: cover;
+    
+}
+
+.hero__text {
+
+    padding: 15px;
+    width: 30%;
+    margin: 5% 10%;
+    display: inline-block;
+}
+
+.hero__text h2 {
+    margin-bottom: 30px;
+    color: #111111;
+    transition: all, 0.6s;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 20px #201c1ce8;
+    font-size: 55px;
+    margin-top: 0;
+}
+
+.hero__text p {
+    text-align: left;
+    margin-bottom: 35px;
+    font-size: 19px;
+    color: #3D3D3D;
+
+}
+
+.hero__text h6 {
+    color: #e53637;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+
+    transition: all, 0.3s;
+}
+
+.primary-btn {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #111111;
+    padding: 14px 40px;
+    background-color: transparent;
+    border: 2px solid #111111;
+    text-shadow: 4px 4px 20px #201c1ce8;
+
+}
+
+.hero__text a:hover {
+    background: gray;
+    text-transform: uppercase;
+}
+
+
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.galary {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background-color: #f2f2f2;
+}
+
+.content:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    color: #b2bec3;
+    padding-top: 0 8px;
+}
+
+h6 {
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+
+}
+
+.content ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+.fa {
+    font-size: 26px;
+    transition: .6s;
+
+
+}
+
+.checked {
+    color: #ff9f43;
+
+}
+
+.fa:hover {
+    transition: .6s;
+    transform: scale(1.3);
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy-1 {
+    background: #2183a2;
+}
+
+.buy-2 {
+    background: #3b3e6e;
+}
+
+.buy-3 {
+    background: #ff9f43;
+}
+
+.buy-4 {
+    background: #0b0b0b;
+}
+
+
+
+@media(max-width:1000px) {
+    .content {
+        width: 45%;
+    }
+  
+}
+
+@media(max-width:750px) {
+    .content {
+        width: 100%;
+    }
+ 
+}
+
+/* footer section start */
+
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #252525;
+    height: auto;
+}
+
+.footer_logo {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.input_bt {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    border-bottom: 1px solid #ffffff !important;
+}
+
+.mail_bt {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    padding: 5px 0px 5px 0px;
+    height: 60px;
+    border: 0px;
+}
+
+input.mail_bt::placeholder {
+    color: #fff;
+}
+
+.subscribe_bt {
+    width: 30%;
+    float: right;
+    font-size: 16px;
+    color: #f26522;
+    background-color: transparent;
+    padding: 20px 0px 5px 0px;
+    border-radius: 30px;
+    border: 0px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.subscribe_bt a {
+    color: #f26522;
+}
+
+.subscribe_bt a:hover {
+    color: #ffffff;
+}
+
+.footer_menu {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_menu ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.footer_menu li {
+    float: left;
+    font-size: 16px;
+    color: #f1f1f1;
+    padding: 20px 10px 0px 10px;
+    list-style: none;
+}
+
+.footer_menu li a {
+    color: #f1f1f1;
+}
+
+.footer_menu li a:hover {
+    color: #f26522;
+}
+
+.location_main {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.location_main {
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 30px 30px 30px 30px;
+}
+
+.location_main a {
+    color: #ffffff;
+}
+
+.location_main a:hover {
+    color: #f26522;
+}
+
+
+/* footer section end */
+/* copyright section start */
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #252525;
+    height: auto;
+}
+
+
+.copyright_text a:hover {
+    color: #f26522;
+}
+
+.margin_top90 {
+    margin-top: 90px;
+}
+
+.copyright_text {
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.copyright_text a {
+    color: #ffffff;
+}
+
+/* copyright section end */
